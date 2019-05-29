@@ -163,6 +163,45 @@ footer {
 	padding: 45px;
 } */
 
+/* Refactoring for index.html below */
+
+.index-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px 0px;
+}
+
+.tagline {
+	font-size: 60pt;
+	text-align: center;
+	margin: 50px;
+}
+
+.tagline button {
+	background-color: white;
+	padding: 5px 40px;
+	border: 1px solid black;
+	box-shadow: none;
+}
+
+.top-content {
+	display: flex;
+}
+
+.middle-img {
+	padding: 30px 0px;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-content div {
+	width: 282px;
+}
+
 /* Below is new CSS for services.html */
 body {
 	margin: 0px 50px;
