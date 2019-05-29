@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-body {
+/* body {
 	width: 876px;
 	margin: 0px 40px;
 }
@@ -161,4 +161,38 @@ footer {
 	text-align: center;
 	font-size: 10pt;
 	padding: 45px;
+} */
+
+/* Below is new CSS for services.html */
+body {
+	margin: 0px 50px;
+	width: 876px;
+}
+
+.nav-and-logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px 0px;
+}
+
+
+.nav-links a {
+	color: grey;
+	text-decoration: none;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+	margin: 0px 50px 0px 0px;
+}
+
+.logo-services {
+	display: flex;
+}
+
+.services-header-img {
+	padding: 0px 0px 30px 0px;
 }
