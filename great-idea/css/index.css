@@ -196,3 +196,24 @@ body {
 .services-header-img {
 	padding: 0px 0px 30px 0px;
 }
+
+h2 {
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+hr {
+	margin: 30px 0px;
+}
+
+.services-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px dashed blue;
+}
+
+.box1 {
+	width: 400px;
+	border: 2px solid red;
+}
+
