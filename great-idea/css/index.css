@@ -208,12 +208,21 @@ hr {
 
 .services-boxes {
 	display: flex;
+	justify-content: space-between;
+	align-items: space-around;
 	flex-wrap: wrap;
-	border: 2px dashed blue;
+	/* border: 2px dashed blue; */
 }
 
-.box1 {
-	width: 400px;
-	border: 2px solid red;
+.box1, .box2, .box3, .box4, .box5, .box6 {
+	width: 420px;
+	border: 1px solid black;
+	height: 230px;
+	margin: 20px 0px;
+	background-color: #F3F3F3;
+	padding: 20px;
 }
 
+.box-buttons {
+	margin: 30px 0px;
+}
