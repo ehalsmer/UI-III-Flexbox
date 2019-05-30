@@ -63,4 +63,136 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Refactoring for index.html below */
+
+.index-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px 0px;
+}
+
+.tagline {
+	font-size: 60pt;
+	text-align: center;
+	margin: 50px;
+}
+
+.tagline button {
+	background-color: white;
+	padding: 5px 40px;
+	border: 1px solid black;
+	box-shadow: none;
+}
+
+.top-content {
+	display: flex;
+}
+
+.middle-img {
+	padding: 30px 0px;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-content div {
+	width: 282px;
+}
+
+/* Below is new CSS for services.html */
+body {
+	margin: 0px 50px;
+	width: 876px;
+}
+
+.nav-and-logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px 0px;
+}
+
+
+.nav-links a {
+	color: grey;
+	text-decoration: none;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+	margin: 0px 50px 0px 0px;
+}
+
+.logo-services {
+	display: flex;
+}
+
+.services-header-img {
+	padding: 0px 0px 30px 0px;
+}
+
+h2 {
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+hr {
+	margin: 30px 0px;
+}
+
+.services-boxes {
+	display: flex;
+	justify-content: space-between;
+	align-items: space-around;
+	flex-wrap: wrap;
+	/* border: 2px dashed blue; */
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+	width: 420px;
+	border: 1px solid black;
+	height: 220px;
+	margin: 20px 0px;
+	background-color: #F3F3F3;
+	padding: 20px;
+}
+
+.box-buttons {
+	margin: 20px 0px;
+	background-color: white;
+	font-size: 8pt;
+	border-radius: 6px;
+	padding: 10px 40px;
+	box-shadow: none;
+	border: 1px solid black;
+}
+
+.lower-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.lower-section p {
+	padding: 0px 30px 0px 0px;
+}
+
+.things-list {
+	list-style-type: square;
+	padding: 18px;
+}
+
+.things-list li {
+	padding: 5px;
+}
+
+footer {
+	text-align: center;
+	font-size: 10pt;
+	padding: 100px;
+}
